@@ -1,6 +1,6 @@
 # Primeira apliação em Flutter
 
-Criei um programa bem simples para começar a entender a estrutura do Flutter, o programa é básicamente um contador que soma ao clicar na escrita
+Criei um programa bem simples para começar a entender a estrutura do Flutter, o programa é básicamente um contador que soma ao clicar no botão 
 
 ## Imagens da aplicação
 
