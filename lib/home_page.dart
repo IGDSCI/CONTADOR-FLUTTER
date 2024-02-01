@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/app_controlle.dart';
 
 class HomePage extends StatefulWidget{
   @override
@@ -9,6 +10,7 @@ class HomePage extends StatefulWidget{
 
 class HomePageState extends State<HomePage>{
   int cont = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,17 +19,13 @@ class HomePageState extends State<HomePage>{
         title: const Text('Primeiro programa'),
         ),
       body: Center(
-          child: Text('Contador: $cont', 
-          style: const TextStyle(fontSize: 20.0),
-          ), 
-        ),
-      floatingActionButton: FloatingActionButton(
-        child: const Icon(Icons.add),
-        onPressed: () { 
-          setState(() {
-                cont = cont + 1;
-              });
-         },),
+        child: Switch(
+          value: appController.instance.dartTheme, 
+          onChanged: (value) {
+            appController.instance.changeTheme();
+          }),
+      )
     );
   }
 }
+
