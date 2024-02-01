@@ -17,15 +17,25 @@ class HomePageState extends State<HomePage>{
       appBar: AppBar(
         backgroundColor: Colors.amber,
         title: const Text('Primeiro programa'),
+        actions: [CustomSwitch()],
         ),
-      body: Center(
-        child: Switch(
-          value: appController.instance.dartTheme, 
-          onChanged: (value) {
-            appController.instance.changeTheme();
-          }),
-      )
+        body: const Center(
+          child: Text (
+            'Boa tarde!'
+            )),
     );
   }
 }
 
+class CustomSwitch extends StatelessWidget {
+  const CustomSwitch({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Switch(
+            value: appController.instance.dartTheme, 
+            onChanged: (value) {
+              appController.instance.changeTheme();
+          },);
+  }
+}
