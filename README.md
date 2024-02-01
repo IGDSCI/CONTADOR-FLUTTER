@@ -1,16 +1,8 @@
-# flutter_application_1
+# Primeira apliação em Flutter
 
-A new Flutter project.
+Criei um programa bem simples para começar a entender a estrutura do Flutter, o programa é básicamente um contador que soma ao clicar na escrita
 
-## Getting Started
+## Imagens da aplicação
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/IGDSCI/CONTADOR-FLUTTER/assets/114839208/fb1d6195-d7da-441b-90aa-bd13248332cc)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
