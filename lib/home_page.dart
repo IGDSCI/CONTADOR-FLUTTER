@@ -16,16 +16,15 @@ class HomePageState extends State<HomePage>{
         backgroundColor: Colors.amber,
         title: const Text('Primeiro programa'),
         ),
-      body: Center(
-          child: GestureDetector(
-            child: Text('Contador: $cont', 
-            style: const TextStyle(fontSize: 20.0),
-            ), 
-            onTap: () {
-              setState(() {
+        floatingActionButton: FloatingActionButton(onPressed: () { 
+          setState(() {
                 cont = cont + 1;
               });
-          }),
+         },),
+      body: Center(
+          child: Text('Contador: $cont', 
+          style: const TextStyle(fontSize: 20.0),
+          ), 
         ),
     );
   }
