@@ -1,8 +1,9 @@
 # Primeira apliação em Flutter
 
-Criei um programa bem simples para começar a entender a estrutura do Flutter, o programa é básicamente um contador que soma ao clicar no botão 
+Adicionado funcionalidade do botão para ativar o modo dark theme utilizando ChangeNotifier
 
 ## Imagens da aplicação
 
-![image](https://github.com/IGDSCI/CONTADOR-FLUTTER/assets/114839208/fb1d6195-d7da-441b-90aa-bd13248332cc)
+![image](https://github.com/IGDSCI/CONTADOR-FLUTTER/assets/114839208/6e0f67d8-4b69-4591-a942-8c8ad5fb7987)
+
 
