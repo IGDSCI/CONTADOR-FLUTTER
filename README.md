@@ -1,9 +1,10 @@
 # Primeira apliação em Flutter
 
-Adicionado funcionalidade do botão para ativar o modo dark theme utilizando ChangeNotifier
+Testando os Widgets de Row e Collumn, criei uma coluna de dashboard básica junto com seus Icons específicos
 
 ## Imagens da aplicação
 
-![image](https://github.com/IGDSCI/CONTADOR-FLUTTER/assets/114839208/6e0f67d8-4b69-4591-a942-8c8ad5fb7987)
+![image](https://github.com/IGDSCI/CONTADOR-FLUTTER/assets/114839208/a8425d00-ec4c-4953-b1e0-4877554d1e8b)
+
 
 
