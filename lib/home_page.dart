@@ -9,16 +9,18 @@ class HomePage extends StatefulWidget{
 
 class HomePageState extends State<HomePage>{
   int cont = 0;
+  Color color = Colors.red;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.amber,
-        title: const Text('Primeiro programa'),
+        title: Text('Primeiro programa'),
         ),
       body: Center(
           child: Text('Contador: $cont', 
-          style: const TextStyle(fontSize: 20.0),
+          style: TextStyle(fontSize: 20.0, color: color),
           ), 
         ),
       floatingActionButton: FloatingActionButton(
@@ -26,8 +28,21 @@ class HomePageState extends State<HomePage>{
         onPressed: () { 
           setState(() {
                 cont = cont + 1;
+                if (isEven(cont)){
+                  color = Colors.red;
+                } else {
+                  color = Colors.green;
+                }
               });
          },),
     );
+  }
+}
+
+bool isEven(int number){
+  if (number % 2 == 0){
+    return true;
+  } else {
+    return false;
   }
 }
