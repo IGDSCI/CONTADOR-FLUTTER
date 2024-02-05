@@ -1,6 +1,6 @@
 # Primeira apliação em Flutter
 
-Criei um programa bem simples para começar a entender a estrutura do Flutter, o programa é básicamente um contador que soma ao clicar no botão e muda a cor do texto de acordo com o valor qu estiver no contador
+Criei um programa bem simples para começar a entender a estrutura do Flutter, o programa é básicamente um contador que soma ao clicar no botão e muda a cor do texto de acordo com o valor que estiver no contador
 
 ## Imagens da aplicação
 
